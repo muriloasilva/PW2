@@ -5,7 +5,7 @@ export function App(){
     return(
         <Page>
             <Container>
-                <Crud />
+                <Crud titulo="Clientes"/>
             </Container>
         </Page>
     )

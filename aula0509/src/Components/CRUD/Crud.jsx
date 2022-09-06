@@ -1,10 +1,13 @@
 
-import { Header } from "./Style"
+import { Header, Titulo, CampoTexto } from "./Style.jsx"
 
-export function Crud(){
+export function Crud({ titulo }){
     return (
         <Header>
-            
+            <Titulo>
+                { titulo }
+            </Titulo>
+            <CampoTexto placeholder="Digite o nome..." />
         </Header>
     )
 }

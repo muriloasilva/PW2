@@ -19,6 +19,10 @@ const Container = styled.div`
     height: 70%;
     width: 50%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     border-radius: 3rem;
     box-shadow: 1px 0px 13px 0px #000000;;
 
