@@ -24,7 +24,7 @@ const Container = styled.div`
     align-items: center;
 
     border-radius: 3rem;
-    box-shadow: 1px 0px 13px 0px #000000;;
+    box-shadow: 0px 0px 21px 7px rgba(0,0,0,0.65);;
 
     background: ${background};
 

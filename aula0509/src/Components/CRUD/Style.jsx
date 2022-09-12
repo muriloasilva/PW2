@@ -4,7 +4,7 @@ import { primary, secundary } from "../../styles/colors";
 
 const Header = styled.header`
 
-        color: gray;
+        color: white;
 
         padding: 2rem;
 
@@ -12,7 +12,7 @@ const Header = styled.header`
 
         background: ${ secundary};
 
-        box-shadow: 1px 0px 24px 0px #000000;
+        box-shadow: 0px 0px 21px 7px rgba(0,0,0,0.65);
 
 `;
 

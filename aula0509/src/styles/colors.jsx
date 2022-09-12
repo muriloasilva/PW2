@@ -1,7 +1,7 @@
 
-export const primary = '#AE2012';
-export const secundary = '#BB3E03';
-export const dark = '#001219';
-export const light_dark = '#005F73';
-export const heavy_primary = '#0A9396';
-export const background = '#94D2BD';
+export const primary = '#DDB892';
+export const secundary = '#E6CCB2';
+export const dark = '#7F5539';
+export const light_dark = '#9C6644';
+export const heavy_primary = '#B08968';
+export const background = '#EDE0D4';
