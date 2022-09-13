@@ -28,3 +28,9 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default GlobalStyle;
+
+//Break Points:
+//Celular: 600px
+//Tablet: 768px
+//Laptop: 992px
+//Desktop: 1200px

@@ -4,28 +4,42 @@ import { primary, secundary } from "../../styles/colors";
 
 const Header = styled.header`
 
+        margin-top: 5%;
+
+        width: 100%;
+
         color: white;
 
         padding: 2rem;
-
-        border-radius: 3rem;
 
         background: ${ secundary};
 
         box-shadow: 0px 0px 21px 7px rgba(0,0,0,0.65);
 
+        display: flex;
+
+        align-items: center;
+
+        justify-content: space-between;
+
+
 `;
 
 const Titulo = styled.h1`
+  
+    font-size: 1.5rem;
 
-    font-size: 2rem;
+`;
 
+const Divisinha = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 `;
 
 const CampoTexto = styled.input`
 
-    width: 70%;
-    height: 10%;
+    width: 80%;
 
     padding: 2rem;
 
@@ -38,4 +52,13 @@ const CampoTexto = styled.input`
 
 `;
 
-export { Header, Titulo, CampoTexto }
+const Botao = styled.button`
+
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+
+`;
+
+export { Header, Titulo, CampoTexto, Botao, Divisinha}

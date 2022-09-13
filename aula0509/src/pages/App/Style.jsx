@@ -16,14 +16,14 @@ const Page = styled.div`
 
 const Container = styled.div`
 
-    height: 70%;
-    width: 50%;
+    height: 100%;
+    width: 60rem;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
 
-    border-radius: 3rem;
     box-shadow: 0px 0px 21px 7px rgba(0,0,0,0.65);;
 
     background: ${background};
